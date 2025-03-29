@@ -23,11 +23,13 @@
       align-items: center;
       height: 100vh;
       flex-direction: column;
-      gap: 40px;
     }
 
     .cardholder {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center the contents horizontally */
+      gap: 20px;
     }
 
     .card {
@@ -38,7 +40,6 @@
       overflow: hidden;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-      margin-bottom: 20px;
     }
 
     .card img {
@@ -113,7 +114,7 @@
       <img src="shay.png" alt="Shay">
     </div>
 
-    <!-- New animated button -->
+    <!-- Glowing button centered below -->
     <button class="glow-button">SHAY</button>
   </div>
 
